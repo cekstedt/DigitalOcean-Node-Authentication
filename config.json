@@ -1,0 +1,21 @@
+{
+  "name": "Node Authentication",
+  "repo": "https://github.com/cekstedt/DigitalOcean-Node-Authentication",
+  "challenger": "Digital Ocean",
+  "challenge page": "https://www.digitalocean.com/community/tutorials/easy-node-authentication-setup-and-local",
+  "hosted": "https://node-authentication.onrender.com",
+  "original": false,
+  "personal": false,
+  "thumbnail": "thumbnail.png",
+  "technologies": [
+    "html",
+    "css",
+    "js",
+    "node",
+    "express",
+    "ejs",
+    "mongodb",
+    "mongoose",
+    "passport"
+  ]
+}
