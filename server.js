@@ -2,6 +2,7 @@
 // get all the tools we need
 var express = require("express");
 var app = express();
+require("dotenv").config();
 var port = process.env.PORT || 8080;
 var mongoose = require("mongoose");
 var passport = require("passport");
@@ -25,7 +26,7 @@ app.use(bodyParser()); // get information from html forms
 app.set("view engine", "ejs"); // set up ejs for templating
 
 // required for passport
-app.use(session({ secret: "" })); // session secret
+app.use(session({ secret: process.env.SECRET })); // session secret
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session

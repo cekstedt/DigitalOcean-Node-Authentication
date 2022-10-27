@@ -1,3 +1,3 @@
 module.exports = {
-  url: "" // looks like mongodb://<user>:<pass>@mongo.onmodulus.net:<port>
+  url: process.env.MONGO_DB // looks like mongodb://<user>:<pass>@mongo.onmodulus.net:<port>
 };
